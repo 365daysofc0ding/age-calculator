@@ -1,11 +1,10 @@
 import java.time.LocalDate
 
-val currentDate = LocalDate.now()
-val currentYear = currentDate.year
+val CURRENT_YEAR = LocalDate.now().year
 var birthYear = 0
 
 fun calcAge(birthYear: Int): Int {
-    return currentYear - birthYear
+    return CURRENT_YEAR - birthYear
 }
 
 fun main() {
