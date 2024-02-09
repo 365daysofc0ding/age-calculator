@@ -3,9 +3,7 @@ import java.time.LocalDate
 val CURRENT_YEAR = LocalDate.now().year
 var birthYear = 0
 
-fun calcAge(birthYear: Int): Int {
-    return CURRENT_YEAR - birthYear
-}
+fun calcAge(birthYear: Int): Int = CURRENT_YEAR - birthYear
 
 fun main() {
 
